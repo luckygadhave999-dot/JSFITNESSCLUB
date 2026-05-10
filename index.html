@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS FITNESS CLUB</title>
+    <meta name="description" content="JS Fitness Club is a premium fitness club in Saoner equipped with BEING STRONG equipment. Transform your body, confidence, and lifestyle with our modern facility.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                JS <span>FITNESS</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Programs</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="#contact" class="btn btn-primary nav-cta">Join Now</a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Using local image with gradient overlay -->
+        <div class="hero-bg" style="background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(28, 28, 28, 0.9)), url('file:///C:/gym%20anit/gym_hero.png.HEIC');"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title animate-up">Build Strength.<br>Build Confidence.<br><span>Build Your Best Self.</span></h1>
+            <p class="hero-subtitle animate-up delay-1">Experience premium fitness training with world-class BEING STRONG equipment and a motivating environment at JS Fitness Club, Saoner.</p>
+            <div class="hero-actions animate-up delay-2">
+                <a href="#contact" class="btn btn-primary">Join Now</a>
+                <a href="#about" class="btn btn-secondary">Visit Gym</a>
+            </div>
+            <div class="trust-signals animate-up delay-3">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p><strong>4.7 Rating</strong> | 170+ Positive Reviews | Premium Equipment</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-image-wrapper reveal-left">
+                <img src="file:///C:/gym%20anit/gym_about.png.jpg" alt="JS Fitness Club Interior" class="about-image">
+                <div class="experience-badge">
+                    <span class="badge-number">Premium</span>
+                    <span class="badge-text">Facility</span>
+                </div>
+            </div>
+            <div class="about-content reveal-right">
+                <h2 class="section-title">Welcome to <span>JS Fitness Club</span></h2>
+                <p class="lead-text">A premium fitness destination in Saoner designed for people who are serious about health, transformation, and performance.</p>
+                <p>Equipped with high-quality <strong>BEING STRONG</strong> equipment and a motivating atmosphere, our gym provides the perfect environment to push your limits and achieve your fitness goals.</p>
+                <p>Whether your goal is muscle gain, fat loss, or overall fitness, JS Fitness Club helps you stay focused, motivated, and consistent.</p>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check-circle"></i> Clean and spacious workout area</li>
+                    <li><i class="fas fa-check-circle"></i> Positive and motivating environment</li>
+                    <li><i class="fas fa-check-circle"></i> Ideal for beginners and advanced members</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Programs Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header text-center reveal-up">
+                <h2 class="section-title">Our <span>Programs</span></h2>
+                <p>Tailored training programs to help you reach your specific fitness goals.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fas fa-dumbbell"></i></div>
+                    <h3>Strength Training</h3>
+                    <p>Build raw power and enhance your physical capabilities with heavy compound movements.</p>
+                </div>
+                <div class="service-card reveal-up delay-1">
+                    <div class="service-icon"><i class="fas fa-weight"></i></div>
+                    <h3>Weight Loss</h3>
+                    <p>Burn fat and improve metabolic health with our targeted cardiovascular and circuit routines.</p>
+                </div>
+                <div class="service-card reveal-up delay-2">
+                    <div class="service-icon"><i class="fas fa-child"></i></div>
+                    <h3>Muscle Building</h3>
+                    <p>Hypertrophy-focused training to sculpt and grow your physique effectively.</p>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fas fa-heartbeat"></i></div>
+                    <h3>Cardio Training</h3>
+                    <p>Boost your endurance and heart health with top-of-the-line cardiovascular equipment.</p>
+                </div>
+                <div class="service-card reveal-up delay-1">
+                    <div class="service-icon"><i class="fas fa-running"></i></div>
+                    <h3>Functional Workouts</h3>
+                    <p>Improve mobility, balance, and real-world strength with functional movement patterns.</p>
+                </div>
+                <div class="service-card reveal-up delay-2">
+                    <div class="service-icon"><i class="fas fa-hands-helping"></i></div>
+                    <h3>Beginner Guidance</h3>
+                    <p>Start your journey right with proper form, supportive atmosphere, and clear direction.</p>
+                </div>
+            </div>
+
+            <div class="equipment-highlight reveal-up">
+                <div class="equipment-content">
+                    <h3 class="highlight-title">Train with <span>Premium Equipment</span></h3>
+                    <p>We feature state-of-the-art <strong>BEING STRONG</strong> machines, ensuring perfect biomechanics, safety, and maximum muscle engagement during every workout.</p>
+                    <a href="#contact" class="btn btn-primary mt-4">Join Now</a>
+                </div>
+                <div class="equipment-image">
+                    <img src="file:///C:/gym%20anit/gym_equipment.png.png" alt="BEING STRONG Gym Equipment">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-flex">
+                <div class="feature-item reveal-up">
+                    <h4>Premium Gym Equipment</h4>
+                </div>
+                <div class="feature-item reveal-up delay-1">
+                    <h4>Motivating Environment</h4>
+                </div>
+                <div class="feature-item reveal-up delay-2">
+                    <h4>Spacious Workout Area</h4>
+                </div>
+                <div class="feature-item reveal-up delay-3">
+                    <h4>Strength & Cardio Zones</h4>
+                </div>
+                <div class="feature-item reveal-up delay-4">
+                    <h4>Beginner Friendly</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header text-center reveal-up">
+                <h2 class="section-title">Member <span>Success</span></h2>
+                <div class="stars big-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p>4.7/5 Average Rating on Google</p>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card reveal-up">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="review-text">"A great place to workout!! 👍💯"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">ST</div>
+                        <div>
+                            <h4>Sanika Tekade</h4>
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card reveal-up delay-1">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="review-text">"The gym has a very positive and motivating environment."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">PC</div>
+                        <div>
+                            <h4>Purva Chauhan</h4>
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card reveal-up delay-2">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="review-text">"Your dedication to quality and attention to detail are unmatched."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">MT</div>
+                        <div>
+                            <h4>Manthan Tidke</h4>
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container text-center reveal-up">
+            <h2 class="cta-title">Start Your Fitness <span>Transformation</span> Today</h2>
+            <p class="cta-subtitle">Push your limits with premium equipment and a motivating atmosphere designed for real results.</p>
+            <a href="#contact" class="btn btn-primary btn-large">Become a Member</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <h2 class="section-title">Get In <span>Touch</span></h2>
+                    <p class="mb-4">Ready to start? Visit us today or give us a call to learn more about our membership plans.</p>
+                    
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <p>Holi Chowk Road, Near Leelashri Lawn,<br>Saoner, Maharashtra 441107</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <p><a href="tel:09096736647" class="phone-link">090967 36647</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-clock"></i></div>
+                        <div class="info-content">
+                            <h4>Working Hours</h4>
+                            <p>Monday–Saturday: Opens 5:30 AM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-map reveal-right">
+                    <!-- Google Maps Embed for Saoner -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m2!1s0x3bd4c0a5a5a5a5a5%3A0x5a5a5a5a5a5a5a5a!2sSaoner%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" title="JS Fitness Club Location Map"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">JS <span>FITNESS</span></a>
+                    <p>Premium fitness club in Saoner equipped with BEING STRONG equipment. Transform your body, confidence, and lifestyle.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Programs</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Membership</h4>
+                    <ul>
+                        <li><a href="#contact">Join Now</a></li>
+                        <li><a href="#contact">Pricing</a></li>
+                        <li><a href="#contact">Free Trial</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> JS Fitness Club. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
